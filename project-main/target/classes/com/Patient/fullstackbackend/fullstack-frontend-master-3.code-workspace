@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../fullstack-frontend-master-3"
+		},
+		{
+			"path": "../../../../../.."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
+
+
