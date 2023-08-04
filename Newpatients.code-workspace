@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "fullstack-frontend-master-3",
+			"path": "."
+		},
+		{
+			"name": "fullstack-backend-master-4",
+			"path": "../fullstack-backend-master-4"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}

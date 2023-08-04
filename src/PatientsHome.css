@@ -1,0 +1,65 @@
+/* Styling for the PatientsTable container */
+.PatientsTable {
+  width: 100%;
+  margin: 20px auto; /* Center the container */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center rows horizontally */
+}
+
+/* Styling for each PatientRow */
+.PatientRow {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  width: calc(40% - 50px); /* 3 rows per row, minus the margin */
+  margin: 10px; /* Increase the space between rows to 10px */
+}
+
+/* Styling for Patient details */
+.PatientID,
+.PatientName,
+.PatientUsername,
+.PatientEmail,
+.PatientPostcode,
+.PatientSymptoms {
+  flex-basis: 100%;
+  padding: 5px;
+}
+
+.PatientID {
+  font-weight: bold;
+}
+
+/* Styling for the View and Delete buttons */
+.PatientActions {
+  flex-basis: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between; /* Align buttons on opposite ends */
+}
+
+.View,
+.Delete {
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover styles for buttons */
+.View:hover,
+.Delete:hover {
+  background-color: #333;
+  color: #fff;
+}

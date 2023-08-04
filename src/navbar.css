@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #00197b; /* Set your desired background color */
+    padding: 2x 2px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Set the desired width for the navbar */
+    margin: 0 auto; /* Center the navbar */
+  }
+  
+  .navbarText {
+    color: white; /* Set your desired text color */
+    font-size: 20px; /* Adjust font size as needed */
+    text-decoration: none;
+    flex: 5; /* This will make the text take up the available space and center it */
+    text-align: center; /* Center the text horizontally */
+    font-weight: bold;
+  }
+  
+
+ 
+  
+   
+  
+    
+  
+  
